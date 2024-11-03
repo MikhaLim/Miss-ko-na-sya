@@ -1,54 +1,96 @@
 <!DOCTYPE html>
-<html> 
-      <head> 
-             <title> Kian's webpage </title
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Name</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f4f4f4;
+        }
 
-                                       <meta charset="UTF-8">
-                                       <meta name="author" content="Kian Gabriel Ajenga">
-                                       <meta name="keywords" content="HTML, CSS, JavaScript">
-                                       <meta name="revised" content="28-06-2020">
+        
+        header {
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
 
-                                        <link rel="icon" href="icon.png" type="image/gif">
-      </head>
-      <body>
-                  
-            
-            
-                                                Uhm miss na kita masyado. ka ganda mo tas cute cute , balik kana kaya
-        <div> Miss ko na si Raniella.</div>
-		<div> Kaganda nya talaga.</div>
-		
-		<span> This is the first span.</span>
-		<span> This is the second span.</span>
-		
-		<h1> crush ko sya.</h1>
-		<p> <p/>
-		<h2> crush ko si Ella.</h2>
-		<h3> MKNS.</h3>
-		<h4> Miss na sya.</h4>
-		<h5> SAJDGAKHDF.</h5>
-		<h6> Kaganda nya.</h6>
-		
-		<h1> my favorite crushie<h1/>
-		
-	<ol> 
-	   <li> sya</li>
-	   <li> si</li>
-	   <li> Marykhryss.</li>
-	   
-	   
-	  </ol>
-	  <ul>
-	   <li> sya</li>
-	   <li> si</li>
-	   <li> Marykhryss.</li>
-	   
-	   </ul>
-	   
-	   
-	  
+        
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            padding: 10px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
 
-		      
-      </body>
-                                       
-                                       </html>
+        
+        .content {
+            max-width: 800px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        
+        @media (min-width: 600px) {
+            nav a {
+                margin: 0 15px;
+            }
+        }
+
+        
+        .button {
+            background-color: #007bff;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+
+    <header>
+        <h1>Your Website Logo</h1>
+    </header>
+
+    
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+
+    <div class="content">
+        <h2>Welcome to Our Website!</h2>
+        <p>This website provides general information about the socially relevant topics we are focusing on. We aim to keep you informed and updated with reliable news.</p>
+        <button class="button">Learn More</button>
+    </div>
+
+</body>
+</html>
